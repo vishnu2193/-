@@ -203,17 +203,19 @@ div.dropdown-content {
     }
 
     .drop {
-      
-        
+
+        padding-left: 5%;
+        width: 18em;
 
     }
 
     .search {
 
         padding-left: 10%;
+        width: 18em;
     }
 
-    
+
 
     .log {
         display: none;
@@ -230,10 +232,13 @@ div.dropdown-content {
         display: inline-block;
         width: 30px;
         height: 5px;
-        background-color: red;
+        background-color: #ff0000;
         margin: 8px 0;
         float: left;
         top: 0;
+        cursor: pointer;
+
+
     }
 
     .dropdown-content {
@@ -243,6 +248,7 @@ div.dropdown-content {
         min-width: 190px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         left: 0px;
+
     }
 
     .dropdown-content a {
