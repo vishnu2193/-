@@ -214,7 +214,7 @@ div.dropdown-content {
     }
 
     .logfom {
-        position: relative;
+        position: absolute;
         left: 5em;
 
     }
