@@ -213,11 +213,7 @@ div.dropdown-content {
         padding-left: 10%;
     }
 
-    .logfom {
-        position: absolute;
-        left: 5em;
-
-    }
+    
 
     .log {
         display: none;
