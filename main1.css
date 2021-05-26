@@ -192,9 +192,9 @@ marquee {
 
 @media only screen and (max-width:600px) {
     .logo {
-     
+
         left: 37%;
-        
+
 
     }
 
@@ -207,4 +207,10 @@ marquee {
 
         padding-left: 10%;
     }
+
+    .logfom {
+        position: relative;
+        left: 5em;
+    }
+
 }
