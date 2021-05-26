@@ -56,7 +56,7 @@
     background-color: white;
     text-align: center;
     font-weight: 600;
-    font-size: 46px;
+    font-size: 48px;
     width: 83px;
     height: 76px;
     position: relative;
@@ -181,4 +181,33 @@ a.a{
 marquee{
     color: red;
     font-weight: 600;
+}
+
+
+@media only screen and (max-width:600px){
+    .logo{
+    background-color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    width: 83px;
+    height: 76px;
+    position: relative;
+    left: 37%;
+    margin: 15px;
+   border-radius: 50%;
+    
+   
+}
+    
+    
+    .drop {
+    width: 21em;
+    margin: 20px;
+    height: 3em;
+    color: #636f88;
+    -webkit-appearance: none;
+    cursor: pointer;
+    padding-left: 2%;
+}
 }
