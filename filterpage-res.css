@@ -223,7 +223,7 @@ div.menu.collapsed {
 }
 
 .line {
-    width: 526.4px;
+    width: 90%;
     position: absolute;
     margin: 31px 0 0;
     border: solid 1px #dedfe5;
@@ -337,7 +337,7 @@ div.container {
     }
 
     .line {
-        width: 350.4px;
+        width: 90%;
         position: absolute;
         margin: 31px 0 0;
         border: solid 1px #dedfe5;
