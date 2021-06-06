@@ -1,0 +1,476 @@
+* {
+    font-family: poppins;
+
+
+}
+
+header {
+    background-color: #ce0505;
+    height: 80px;
+    width: 100%
+}
+
+a.a {
+
+    display: inline-block;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    color: red;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 28px;
+    position: relative;
+    left: 98px;
+    top: 11px;
+    border-radius: 24px;
+    padding-top: 3px;
+    padding-left: 3px;
+    margin-top: 3px;
+
+}
+
+.menu {
+    width: 30px;
+    height: 5px;
+    background-color: #FFFFE0;
+    margin: 4px 0;
+    position: relative;
+    bottom: 40px;
+    left: 27px;
+    cursor: pointer;
+}
+
+
+.login {
+    position: relative;
+    bottom: 32px;
+    left: 27px;
+    color: white;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+
+
+a:focus,
+a:hover {
+    color: #192f60;
+    text-decoration: none;
+}
+
+div.menu.collapsed {
+    display: none;
+}
+
+
+
+.mlogin-signup {
+    position: absolute;
+    left: 70%;
+    top: 30px;
+    word-spacing: 10px;
+
+}
+
+.mlogin {
+    color: white;
+    text-decoration: none;
+}
+
+.maccount {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    word-spacing: normal;
+    border-radius: 5px;
+}
+
+.fheading {
+    
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 2.53;
+    text-align: left;
+    color: #192f60;
+    width: 100%;
+}
+
+
+.filter {
+
+    width: 250px;
+    box-shadow: 0 3px 6px 0 #192f60;
+    background-color: #ffffff;
+    margin: 15px;
+
+
+
+}
+
+.filter1 {
+
+    width: 250px;
+    height: 650px;
+    box-shadow: 0 3px 6px 0 #192f60;
+    background-color: #ffffff;
+    margin: 15px;
+
+
+
+}
+
+
+
+.right {
+    width: 80%;
+    height: 280px;
+    box-shadow: 0 3px 6px 0 #192f60;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 14px;
+
+
+    position: relative;
+    top: 2px;
+    left: 15px;
+    color: #192f60;
+}
+
+.F {
+    font-weight: bold;
+    margin: 10px 20px;
+    padding-top: 10px;
+    color: #192f60;
+
+}
+
+.S {
+
+    margin: 10px 20px;
+    color: #192f60;
+}
+
+.select {
+    width: 208px;
+    height: 35px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: solid 1px #8c96ab;
+    color: #8c96ab;
+    padding-left: 10px;
+}
+
+.check {
+    margin: 10px 20px;
+    color: #8c96ab;
+    margin-bottom: 20px;
+
+}
+
+
+
+.Radio1 {
+    margin: 10px 20px;
+    color: #8c96ab
+}
+
+.C {
+    margin: 10px 20px;
+    color: #192f60;
+
+
+}
+
+.Co {
+    margin: 10px 20px;
+    color: #192f60;
+}
+
+.SO {
+    margin: 10px 20px;
+    font-weight: 600;
+}
+
+.Image {
+    top: 25px;
+    position: absolute;
+    left: 35px;
+    border-radius: 23px;
+    width: 120px;
+    height: 120px;
+}
+
+.Top {
+    left: 190px;
+    position: absolute;
+    top: 35px;
+}
+
+.B {
+    font-size: 30px;
+    font-weight: 600;
+    color: #192f60;
+}
+
+.Address {
+    color: #636f88;
+
+}
+
+.line {
+    width: 90%;
+    position: absolute;
+    margin: 31px 0 0;
+    border: solid 1px #dedfe5;
+    top: 140px;
+    left: 30px;
+}
+
+.cato {
+    color: #636f88;
+    position: absolute;
+    top: 200px;
+    left: 35px;
+}
+
+.item {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: #192f60;
+    font-weight: 600;
+
+}
+
+.Numbers {
+    position: absolute;
+    left: 500px;
+    margin-bottom: 10px;
+
+
+}
+
+.left {
+    border: 1px solid #8c96ab;
+    margin: 10px;
+    padding: 8.2px 13.5px 9.5px 14.3px;
+    opacity: 0.4;
+    border-radius: 7px;
+    text-decoration: none;
+    color: darkblue;
+
+
+
+}
+
+.btn-group-lg > .btn,
+.btn-lg {
+
+    display: none;
+}
+
+div.container {
+    margin-left: 7%;
+}
+
+
+@media  screen and (max-width:998px)  and (max-width:900px) and (min-width: 360px) {
+
+    
+    .filter {
+        display: block;
+
+    }
+
+
+    .right {
+        width: 90%;
+        height: 180px;
+        box-shadow: 0 3px 6px 0 #192f60;
+        background-color: #ffffff;
+
+        margin-bottom: 15px;
+
+        position: relative;
+        top: 2px;
+        right: 5px;
+        color: #192f60;
+    }
+
+    .B {
+        font-size: 15px;
+        font-weight: 600;
+        color: #192f60;
+    }
+
+    .Address {
+        font-size: 10px
+    }
+
+    .Image {
+        top: 12.5px;
+        position: absolute;
+        left: 17px;
+        border-radius: 11px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .Top {
+        left: 95px;
+        position: absolute;
+        top: 17.5px;
+    }
+
+    .line {
+        width: 90%;
+        position: absolute;
+        margin: 31px 0 0;
+        border: solid 1px #dedfe5;
+        top: 70px;
+        left: 15px;
+    }
+
+    .cato {
+        color: #636f88;
+        position: absolute;
+        top: 120px;
+        left: 15px;
+        font-size: 10px;
+    }
+
+    .item {
+        position: absolute;
+        top: 120px;
+        left: 130px;
+        color: #192f60;
+        font-size: 10px;
+        font-weight: 600;
+
+    }
+
+    .stro {
+        font-size: 10px;
+    }
+
+    .filter1 {
+
+        display: none;
+
+
+    }
+
+    div.menu.collapsed {
+        display: block;
+    }
+
+
+
+
+
+    .btn-group-lg > .btn,
+    .btn-lg {
+
+        display: block;
+        color: #192f60;
+        background-color: #ffffff;
+        text-align: left;
+        margin-top: 10px;
+        box-shadow: 0 3px 6px 0 #192f60;
+        border: solid 1px #e0e0e0;
+        font-weight: 600;
+        font-size: 16px;
+        border-radius: 0px;
+        width: 83%;
+        margin-left: 30px;
+
+
+    }
+
+    .btn-group-lg > .btn,
+    .btn-lg:hover {
+        background-color: #ffffff;
+        color: #192f60;
+
+    }
+
+    .btn-info.focus,
+    .btn-info:focus {
+        color: #fff;
+        background-color: #ffffff;
+        border-color: #ffffff;
+        color: #192f60;
+
+    }
+
+    .fheading {
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 2.53;
+        text-align: left;
+        color: #192f60;
+        margin-left: 17px;
+
+    }
+
+    .filter1 {
+
+        display: none;
+
+
+    }
+
+    .filter {
+
+        width: 83%;
+        left: 3%;
+
+
+    }
+
+    div.menu.collapsed {
+        display: block;
+
+    }
+
+    .signin {
+        border: 1px solid white;
+        padding: 5px;
+    }
+
+    a.a {
+        left: 4rem;
+    }
+
+    .mlogin-signup {
+
+        left: 38%;
+
+    }
+
+    .appbtn {
+        border: 1.4px solid #ce0505;
+        color: #ce0505;
+        text-align: center;
+        padding: 5px;
+        border-radius: 4px;
+        font-weight: 600;
+        width: 90%;
+        margin-left: 5%;
+        margin: inherit;
+        cursor: pointer;
+    }
+
+    .fa {
+        margin-left: 60%;
+        color: #8c96ab;
+    }
+
+    div.container {
+        margin-left: 3%;
+    }
+}
