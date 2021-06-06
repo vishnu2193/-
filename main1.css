@@ -226,12 +226,17 @@ marquee {
     .para{
         margin-left: 20px;
     }
-    
+    .drop {
+
+        padding-left: 5%;
+        width: 18em;
+
+    }
 
     .search {
 
         padding-left: 10%;
-        width: 15em;
+        width: 18em;
         margin-left: 18px;
     }
 
@@ -247,7 +252,7 @@ marquee {
     .fa-search:before {
         content: "\f002";
         position: relative;
-        right: 14.2rem;
+        right: 17rem;
         color: #74819e;
         top: 2px;
     }
