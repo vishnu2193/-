@@ -210,7 +210,7 @@ marquee {
 /*--- Media  queries--*/
 
 
-@media screen and (max-width:600px) and (min-width: 480px) {
+@media screen and (max-width:600px) and (min-width: 480px) and (min-width: 280px){
     .logo {
 
         left: 37%;
