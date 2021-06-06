@@ -1,35 +1,27 @@
 * {
     font-family: poppins;
-
     color: #192f60;
 }
-
 .con {
     position: absolute;
     top: 15px;
-
 }
-
 .item {
-
-
     text-align: center;
-
 
 }
 
 .log {
     margin: 20px;
     color: #ffffff;
+  
     cursor: pointer;
     text-decoration: none;
     padding: 8px;
     border-radius: 5%;
     font-weight: bold;
 }
-
 .signup {
-
     color: #ffffff;
     cursor: pointer;
     text-decoration: none;
@@ -38,20 +30,15 @@
     border-radius: 5%;
     font-weight: bold;
 }
-
 .signup:hover {
     background-color: #eb2929;
     border-color: darkmagenta;
     color: black;
 }
-
 .log:hover {
     background-color: #eb2929;
     color: black;
 }
-
-
-
 .logo {
     background-color: white;
     text-align: center;
@@ -64,28 +51,19 @@
     margin: 15px;
     border-radius: 50%;
     padding-left: 15px;
-
-
 }
-
 a.a {
     color: #eb2929;
     text-decoration: none;
-
 }
-
 .heading {
-
     font-weight: 600;
     line-height: 1.53;
     letter-spacing: normal;
-
     color: #ffffff;
     text-align: center;
     font-family: Poppins;
-
 }
-
 .drop {
     width: 15em;
     margin: 20px;
@@ -95,7 +73,6 @@ a.a {
     cursor: pointer;
     padding-left: 2%;
 }
-
 .fa-search:before {
     content: "\f002";
     position: relative;
@@ -103,17 +80,12 @@ a.a {
     color: #74819e;
     top: 2px;
 }
-
 .search {
     width: 21em;
     height: 3em;
     color: #636f88;
     padding-left: 5%;
 }
-
-
-
-
 .bold {
     margin-top: -66px;
     font-family: Poppins;
@@ -127,9 +99,7 @@ a.a {
     color: #192f60;
     margin-left: 30px;
 }
-
 .para {
-
     font-family: Poppins;
     font-size: 15px;
     font-weight: normal;
@@ -142,8 +112,6 @@ a.a {
     margin-left: 30px;
     margin-bottom: 30px;
 }
-
-
 .item1 {
     height: 150px;
     width: 350px;
@@ -153,12 +121,10 @@ a.a {
     box-shadow: 0 3px 6px 0 #192f60;
     background-color: #ffffff;
 }
-
 .left {
     width: 40%;
     display: inline-block;
 }
-
 .right {
     width: 50%;
     display: inline-block;
@@ -166,9 +132,23 @@ a.a {
     margin-top: 20px;
     margin-left: 20px;
 }
-
-.righthd {
+    .righthd {
     font-family: Poppins;
+
+    
+          
+            
+    
+
+          
+          
+            
+    
+
+          
+    
+    @@ -213,7 +217,15 @@ marquee {
+  
     font-size: 18px;
     font-weight: 600;
     font-stretch: normal;
@@ -178,7 +158,6 @@ a.a {
     text-align: left;
     color: #192f60;
 }
-
 .rightdn {
     font-family: Poppins;
     font-size: 14px;
@@ -190,53 +169,33 @@ a.a {
     text-align: left;
     color: #8c96ab;
 }
-
 marquee {
     color: red;
     font-weight: 600;
 }
-
 .log-signup {}
-
-
 .center {
     margin-top: 35px;
 }
-
 /*--- Media  queries--*/
-
-
 @media screen and (max-width:600px) and (min-width: 480px) {
     .logo {
-
         left: 37%;
 
 
     }
-
     .drop {
 
         padding-left: 5%;
-        width: 18em;
-
+ 
+    width: 18em;
     }
-
     .search {
-
         padding-left: 10%;
         width: 18em;
         margin-left: 18px;
     }
-
-
-
-
-
-
     /*--- small menu for login & signup--*/
-
-
-
     .fa-search:before {
         content: "\f002";
         position: relative;
@@ -244,12 +203,9 @@ marquee {
         color: #74819e;
         top: 2px;
     }
-
     .home-img {
         height: 380px;
     }
-
-
     /*--- END--*/
 
 
