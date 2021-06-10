@@ -89,7 +89,7 @@ div.menu.collapsed {
 }
 
 .fheading {
-    
+
     font-size: 36px;
     font-weight: bold;
     line-height: 2.53;
@@ -246,13 +246,7 @@ div.menu.collapsed {
 
 }
 
-.Numbers {
-    position: absolute;
-    left: 500px;
-    margin-bottom: 10px;
 
-
-}
 
 .left {
     border: 1px solid #8c96ab;
@@ -267,6 +261,16 @@ div.menu.collapsed {
 
 }
 
+.Pagination {
+    text-align: center;
+    margin: 15px;
+}
+
+
+.left:hover {
+    background-color: #8c96ab;
+}
+
 .btn-group-lg > .btn,
 .btn-lg {
 
@@ -278,9 +282,9 @@ div.container {
 }
 
 
-@media  screen and (max-width:998px)  and (max-width:900px) and (min-width: 360px) {
+@media screen and (max-width:998px) and (max-width:900px) and (min-width: 360px) {
 
-    
+
     .filter {
         display: block;
 
